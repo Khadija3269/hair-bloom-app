@@ -17,7 +17,7 @@ const Home = () => {
 
   const fetchProducts = async () => {
     try {
-      const response = await fetch("http://backend:5000/products");
+      const response = await fetch("https://bloom-hair-9an9.onrender.com");
       const data = await response.json();
       setItems(data);
     } catch (error) {
