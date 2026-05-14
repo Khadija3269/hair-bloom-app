@@ -17,7 +17,7 @@ const Choose = () => {
 
   const fetchProduct = async () => {
     try {
-      const response = await fetch(`http://backend:5000/products/${id}`);
+      const response = await fetch(`https://bloom-hair-9an9.onrender.com/${id}`);
       const data = await response.json();
       setProduct(data);
     } catch (error) {
