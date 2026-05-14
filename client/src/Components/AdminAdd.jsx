@@ -41,7 +41,7 @@ const AdminAdd = () => {
       return;
     }
     try {
-      const response = await fetch("https://bloom-hair-9an9.onrender.com", {
+      const response = await fetch("https://bloom-hair-app.onrender.com/add-product", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
