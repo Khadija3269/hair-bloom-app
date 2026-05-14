@@ -19,7 +19,7 @@ const AdminHome = () => {
 
   const fetchProducts = async () => {
     try {
-      const response = await fetch("http://backend:5000/products");
+      const response = await fetch("https://bloom-hair-9an9.onrender.com");
       const data = await response.json();
       setProducts(data);
     } catch (error) {
@@ -50,7 +50,7 @@ const AdminHome = () => {
   const deleteProduct = async (id) => {
     try {
       const response = await fetch(
-        `http://backend:5000/delete-product/${id}`,
+        `https://bloom-hair-9an9.onrender.com/${id}`,
         {
           method: "DELETE",
         }
