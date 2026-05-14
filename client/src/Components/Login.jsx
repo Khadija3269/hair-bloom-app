@@ -14,7 +14,7 @@ const Login = () => {
 
   const onSubmit = async (formData) => {
     try {
-      const response = await fetch("https://hair-bloom-app.onrender.com", {
+      const response = await fetch("https://bloom-hair-9an9.onrender.com", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
