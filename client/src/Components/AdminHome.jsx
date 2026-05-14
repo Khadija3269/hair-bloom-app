@@ -19,7 +19,7 @@ const AdminHome = () => {
 
   const fetchProducts = async () => {
     try {
-      const response = await fetch("https://bloom-hair-9an9.onrender.com");
+      const response = await fetch("https://bloom-hair-app.onrender.com/products");
       const data = await response.json();
       setProducts(data);
     } catch (error) {
